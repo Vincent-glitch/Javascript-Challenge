@@ -1,9 +1,9 @@
-// from data.js
+// Data.js information in variable
 var tableData = data;
 // 
 var tbody = d3.select("tbody");
 
-// YOUR CODE HERE!
+// forEach on the TableData
 tableData.forEach((sighting) => {
     var row = tbody.append("tr");
     Object.entries(sighting).forEach(([key, value]) => {
@@ -14,7 +14,7 @@ tableData.forEach((sighting) => {
 
 var button = d3.select("#filter-btn");
 var form =  d3.select("#form");
-
+//Couldn't enter to work the same as clicking to run enter
 button.on("click", runEnter);
 
     function runEnter(){
