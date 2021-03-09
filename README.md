@@ -9,3 +9,7 @@ Using the [UFO dataset](static/js/data.js) (provided in the form of an array of 
 * CSS
 * HTML
 
+### User Instructions
+
+*[Click this Link](https://vincent-glitch.github.io/Javascript-UFO-Sighting/)
+*Search the dataset by entering a valid date in (MM/DD/YYY) format, and click 'Filter Table'
